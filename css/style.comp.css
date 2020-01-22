@@ -456,10 +456,6 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.4rem; }
-    .review__user-name:hover {
-      cursor: pointer; }
-      .review__user-name:hover .tooltip__text {
-        visibility: visible; }
   .review__user-date {
     font-size: 1rem;
     color: var(--color-gray-dark-2); }
@@ -523,19 +519,3 @@ body {
   .btn:focus {
     outline: none;
     animation: pulsate 1s infinite; }
-
-.tooltip {
-  position: relative;
-  display: inline-block; }
-  .tooltip__text {
-    visibility: hidden;
-    width: 12rem;
-    background-color: var(--color-gray-light-2);
-    color: var(--color-primary);
-    text-align: center;
-    padding: 0.5rem 0;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 3;
-    top: -0.5rem;
-    left: 105%; }
